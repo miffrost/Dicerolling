@@ -3,7 +3,7 @@ Ohjelma, joka laskee erilaisten noppien heiton tulosten todennäköisyyden
 
 
 # Rakenne
-  Ohjelma on toteutettu Eclipse-ohjelmointiympäristössä
+  Ohjelma on toteutettu Eclipse-ohjelmointiympäristössä, ja koostuu seuraavista luokista:
 
   -Main: Luokka, jonka kautta ohjelma toteutetaan.
   
