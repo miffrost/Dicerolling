@@ -3,6 +3,8 @@ Ohjelma, joka laskee erilaisten noppien heiton tulosten todennäköisyyden
 
 
 # Rakenne
+  Ohjelma on toteutettu Eclipse-ohjelmointiympäristössä
+
   -Main: Luokka, jonka kautta ohjelma toteutetaan.
   
   -Fraction: Luokka, jossa määritellään todennäköisyyksien laskemisessa käytettävät murtoluvut
