@@ -7,7 +7,8 @@
 
   -Main: Luokka, jonka kautta ohjelma toteutetaan.
   
-  -Fraction: Luokka, jossa määritellään todennäköisyyksien laskemisessa käytettävät murtoluvut
+  -Fraction: Luokka, jossa määritellään todennäköisyyksien laskemisessa käytettävät murtoluvut. 
+  Tässä luokassa käytetään myös luokkia BigDecimal ja MathContext, joilla ilmaistaan murtolukujen likiarvot desimaalilukuina.
   
   -Die: Luokka, jossa noppa määritellään kahdella muuttujalla: 
   
@@ -18,13 +19,7 @@
    Nopan sivujen oletusmäärä on kuusi, ja oletetut sivujen todennäköisyydet ovat samanarvoisia. 
    Nopalle voidaan valita oletuksesta poikkeavat sivut ja niitä vastaavat todennäköisyydet. 
    
-   Ohjelmassa käytetyt kirjastot:
    
-    java.math.BigDecimal
-    
-    java.math.MathContext
-   
-
 # Esimerkki ohjelman toteutuksesta:
 
   -Main-tiedoston koodi:
