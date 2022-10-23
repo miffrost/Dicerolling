@@ -19,7 +19,9 @@
    Nopalle voidaan valita oletuksesta poikkeavat sivut ja niitä vastaavat todennäköisyydet. 
    
    Ohjelmassa käytetyt kirjastot:
-    java.math.BigDecimak
+   
+    java.math.BigDecimal
+    
     java.math.MathContext
    
 
