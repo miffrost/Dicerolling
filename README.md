@@ -1,9 +1,9 @@
 # Dicerolling
-Ohjelma, joka laskee erilaisten noppien heiton tulosten todennäköisyyden
+  Ohjelma, joka laskee erilaisten noppien heiton tulosten todennäköisyyden.
 
 
 # Rakenne
-  Ohjelma on toteutettu Eclipse-ohjelmointiympäristössä, ja koostuu seuraavista luokista:
+  Ohjelma on kirjoitettu Eclipse-ohjelmointiympäristössä, ja koostuu seuraavista luokista:
 
   -Main: Luokka, jonka kautta ohjelma toteutetaan.
   
@@ -13,10 +13,14 @@ Ohjelma, joka laskee erilaisten noppien heiton tulosten todennäköisyyden
   
       -Sivut: kokonaislukuja, joita voidaan saada nopanheiton arvoksi
       
-      -Todennäköisyydet: murtolukuja, joilla ilmaistaan nopan sivun todennäköisyys nopan heitossa
+      -Todennäköisyydet: murtolukuja, joilla ilmaistaan nopan sivun todennäköisyys nopanheitossa
       
    Nopan sivujen oletusmäärä on kuusi, ja oletetut sivujen todennäköisyydet ovat samanarvoisia. 
    Nopalle voidaan valita oletuksesta poikkeavat sivut ja niitä vastaavat todennäköisyydet. 
+   
+   Ohjelmassa käytetyt kirjastot:
+    java.math.BigDecimak
+    java.math.MathContext
    
 
 # Esimerkki ohjelman toteutuksesta:
@@ -26,7 +30,7 @@ Ohjelma, joka laskee erilaisten noppien heiton tulosten todennäköisyyden
     Die d6 = new Die();
     System.out.println(d6.multiply(3).showAllProbabilities());
 
-  -Ohjelma kirjoittaa:
+  -Ohjelma tulostaa:
 
     p(3): 1/216: 0.004629630
     p(4): 3/216: 0.01388889
